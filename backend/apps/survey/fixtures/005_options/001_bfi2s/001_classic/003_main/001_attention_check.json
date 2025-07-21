@@ -1,0 +1,62 @@
+[
+  {
+    "model": "survey.Option",
+    "pk": 102000,
+    "fields": {
+      "requires_input": false,
+      "content": "Agree strongly",
+      "order": 1,
+      "question_id": 10009,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 102001,
+    "fields": {
+      "requires_input": false,
+      "content": "Agree a little",
+      "order": 2,
+      "question_id": 10009,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 102002,
+    "fields": {
+      "requires_input": false,
+      "content": "Neutral, no opinion",
+      "order": 3,
+      "question_id": 10009,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 102003,
+    "fields": {
+      "requires_input": false,
+      "content": "Disagree a little",
+      "order": 4,
+      "question_id": 10009,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 102004,
+    "fields": {
+      "requires_input": false,
+      "content": "Disagree strongly",
+      "order": 5,
+      "question_id": 10009,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

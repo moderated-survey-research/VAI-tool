@@ -1,0 +1,8 @@
+from enum import Enum
+
+
+class EmailTemplateEnum(Enum):
+    SURVEY_INVITATION_CLASSIC_BFI2S = "288f4faf-f82d-4118-85a4-bb81dacf3e41"
+    SURVEY_INVITATION_CLASSIC_CFQ = "4bf36b1c-d81c-484f-b743-cd96a2289cef"
+    SURVEY_INVITATION_AI_BFI2S = "076ce9cd-4233-4bef-bc0b-a5be0fd071de"
+    SURVEY_INVITATION_AI_CFQ = "46859759-851f-43b7-94bb-c9cff004821f"

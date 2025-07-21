@@ -1,0 +1,58 @@
+[
+  {
+    "model": "survey.Survey",
+    "pk": 1000,
+    "fields": {
+      "name": "BFI-2-S (Classic)",
+      "description": "Big Five Inventory-2 Short Form (Classic)",
+      "key": "bfi2s_classic",
+      "email_template_uuid": "288f4faf-f82d-4118-85a4-bb81dacf3e41",
+      "type": "classic",
+      "questionnaire_type": "bfi2s",
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Survey",
+    "pk": 1001,
+    "fields": {
+      "name": "BFI-2-S (Avatar)",
+      "description": "Big Five Inventory-2 Short Form (Avatar)",
+      "key": "bfi2s_avatar",
+      "email_template_uuid": "4bf36b1c-d81c-484f-b743-cd96a2289cef",
+      "type": "avatar",
+      "questionnaire_type": "bfi2s",
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Survey",
+    "pk": 1002,
+    "fields": {
+      "name": "CFQ (Classic)",
+      "description": "Cognitive Failures Questionnaire (Classic)",
+      "key": "cfq_classic",
+      "email_template_uuid": "076ce9cd-4233-4bef-bc0b-a5be0fd071de",
+      "type": "classic",
+      "questionnaire_type": "cfq",
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Survey",
+    "pk": 1003,
+    "fields": {
+      "name": "CFQ (Avatar)",
+      "description": "Cognitive Failures Questionnaire (Avatar)",
+      "key": "cfq_avatar",
+      "email_template_uuid": "46859759-851f-43b7-94bb-c9cff004821f",
+      "type": "avatar",
+      "questionnaire_type": "cfq",
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

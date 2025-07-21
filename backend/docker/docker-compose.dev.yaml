@@ -1,0 +1,71 @@
+services:
+  db:
+    image: postgres:16.4-alpine
+    restart: unless-stopped
+    container_name: db
+    volumes:
+      - /project/db:/var/lib/postgresql/data/
+    networks:
+      - backend
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+  redis:
+    image: redis:alpine
+    container_name: redis
+    restart: unless-stopped
+    volumes:
+      - /project/cache:/data
+    networks:
+      - backend
+  backend:
+    image: ghcr.io/kesuera/dp-backend/backend:latest
+    restart: unless-stopped
+    container_name: backend
+    volumes:
+      - /project/backend:/var/www/html
+    networks:
+      - backend
+    depends_on:
+      - db
+      - redis
+    environment:
+      - FRONTEND_HOST=${FRONTEND_HOST}
+      - SECRET_KEY=${SECRET_KEY}
+      - STATIC_ROOT=/var/www/html
+      - DJANGO_SETTINGS_MODULE=config.settings.dev
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - DB_HOST=db
+      - DB_PORT=5432
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_DB=0
+      - EMAIL_BACKEND=${EMAIL_BACKEND}
+      - EMAIL_HOST=${EMAIL_HOST}
+      - EMAIL_PORT=${EMAIL_PORT}
+      - EMAIL_HOST_USER=${EMAIL_HOST_USER}
+      - EMAIL_HOST_PASSWORD=${EMAIL_HOST_PASSWORD}
+      - EMAIL_USE_TLS=${EMAIL_USE_TLS}
+      - EMAIL_USE_SSL=${EMAIL_USE_SSL}
+      - EMAIL_SENDER_EMAIL=${EMAIL_SENDER_EMAIL}
+      - EMAIL_SENDER_NAME=${EMAIL_SENDER_NAME}
+      - APP_NAME=${APP_NAME}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL=${OPENAI_MODEL}
+      - HEYGEN_API_KEY=${HEYGEN_API_KEY}
+      - HEYGEN_API_URL=${HEYGEN_API_URL}
+      - SURVEY_TTL=${SURVEY_TTL}
+      - SURVEY_FOLLOW_UP_THRESHOLD=${SURVEY_FOLLOW_UP_THRESHOLD}
+      - SURVEY_DISCUSSION_THRESHOLD=${SURVEY_DISCUSSION_THRESHOLD}
+      - SURVEY_VIOLATION_THRESHOLD=${SURVEY_VIOLATION_THRESHOLD}
+      - SURVEY_SUMMARY_WORD_LIMIT=${SURVEY_SUMMARY_WORD_LIMIT}
+
+networks:
+  backend:
+    name: backend
+    driver: bridge

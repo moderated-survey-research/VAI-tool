@@ -1,0 +1,255 @@
+[
+  {
+    "model": "survey.Scale",
+    "pk": 1000,
+    "fields": {
+      "key": "bfi2s",
+      "options": {
+        "1": "Disagree strongly",
+        "2": "Disagree a little",
+        "3": "Neutral, no opinion",
+        "4": "Agree a little",
+        "5": "Agree strongly"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1001,
+    "fields": {
+      "key": "cfq",
+      "options": {
+        "0": "Never",
+        "1": "Very rarely",
+        "2": "Occasionally",
+        "3": "Quite often",
+        "4": "Very often"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1003,
+    "fields": {
+      "key": "every_day_never",
+      "options": {
+        "1": "Less often",
+        "2": "At least once a month",
+        "3": "At least once a week",
+        "4": "At least once a day",
+        "5": "Multiple times a day"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1004,
+    "fields": {
+      "key": "positive_negative",
+      "options": {
+        "1": "Very negative",
+        "2": "Somewhat negative",
+        "3": "Neutral",
+        "4": "Somewhat positive",
+        "5": "Very positive"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1005,
+    "fields": {
+      "key": "easy_difficult",
+      "options": {
+        "1": "Very difficult",
+        "2": "Difficult",
+        "3": "Neutral",
+        "4": "Easy",
+        "5": "Very easy"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1006,
+    "fields": {
+      "key": "good_poor",
+      "options": {
+        "1": "Very poor",
+        "2": "Poor",
+        "3": "Neutral",
+        "4": "Good",
+        "5": "Very good"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1007,
+    "fields": {
+      "key": "likely_unlikely",
+      "options": {
+        "1": "Very unlikely",
+        "2": "Unlikely",
+        "3": "Neutral",
+        "4": "Likely",
+        "5": "Very likely"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1008,
+    "fields": {
+      "key": "engaging_not_engaging",
+      "options": {
+        "1": "Not engaging at all",
+        "2": "Slightly engaging",
+        "3": "Somewhat engaging",
+        "4": "Moderately engaging",
+        "5": "Extremely engaging"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1009,
+    "fields": {
+      "key": "comfortable_uncomfortable",
+      "options": {
+        "1": "Very uncomfortable",
+        "2": "Uncomfortable",
+        "3": "Neutral",
+        "4": "Comfortable",
+        "5": "Very comfortable"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1010,
+    "fields": {
+      "key": "clear_unclear",
+      "options": {
+        "1": "Very unclear",
+        "2": "Unclear",
+        "3": "Neutral",
+        "4": "Clear",
+        "5": "Very clear"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1011,
+    "fields": {
+      "key": "language_proficiency",
+      "options": {
+        "1": "Beginner",
+        "2": "Basic",
+        "3": "Intermediate",
+        "4": "Advanced",
+        "5": "Native or bilingual speaker"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1012,
+    "fields": {
+      "key": "naturalness",
+      "options": {
+        "1": "Not at all natural",
+        "2": "Slightly natural",
+        "3": "Moderately natural",
+        "4": "Very natural",
+        "5": "Extremely natural"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1013,
+    "fields": {
+      "key": "avatar_ai_assistant_preference",
+      "options": {
+        "3": "I prefer the voice-based AI assistant (current version)",
+        "2": "I prefer the text-based AI assistant (the alternative)",
+        "1": "I have no preference"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1014,
+    "fields": {
+      "key": "agree_disagree",
+      "options": {
+        "1": "Strongly disagree",
+        "2": "Disagree",
+        "3": "Neutral",
+        "4": "Agree",
+        "5": "Strongly agree"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1015,
+    "fields": {
+      "key": "classic_ai_assistant_preference",
+      "options": {
+        "3": "I prefer the text-based AI assistant (current version)",
+        "2": "I prefer the voice-based AI assistant (the alternative)",
+        "1": "I have no preference"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Scale",
+    "pk": 1016,
+    "fields": {
+      "key": "attention_check_months_in_a_year",
+      "options": {
+        "6": "1",
+        "5": "7",
+        "4": "12",
+        "3": "30",
+        "2": "365",
+        "1": "Other"
+      },
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

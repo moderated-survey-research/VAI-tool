@@ -1,0 +1,508 @@
+[
+  {
+    "model": "survey.Question",
+    "pk": 10000,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Tends to be quiet.",
+      "key": "bfi2s_classic_main_tends_quiet",
+      "order": 1,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10001,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is compassionate, has a soft heart.",
+      "key": "bfi2s_classic_main_compassionate_soft_heart",
+      "order": 2,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10002,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Tends to be disorganized.",
+      "key": "bfi2s_classic_main_disorganized",
+      "order": 3,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10003,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Worries a lot.",
+      "key": "bfi2s_classic_main_worries_a_lot",
+      "order": 4,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10004,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is fascinated by art, music, or literature.",
+      "key": "bfi2s_classic_main_fascinated_art_music",
+      "order": 5,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10005,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is dominant, acts as a leader.",
+      "key": "bfi2s_classic_main_dominant_leader",
+      "order": 6,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10006,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is sometimes rude to others.",
+      "key": "bfi2s_classic_main_rude_to_others",
+      "order": 7,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10007,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Has difficulty getting started on tasks.",
+      "key": "bfi2s_classic_main_difficulty_starting_tasks",
+      "order": 8,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10008,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Tends to feel depressed, blue.",
+      "key": "bfi2s_classic_main_feels_depressed",
+      "order": 9,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10009,
+    "fields": {
+      "subheading": "Some participants rush through surveys without carefully reading the questions, which affects data quality. To show you're paying attention, please select both 'Agree strongly' and 'Disagree strongly' in this question.",
+      "content": "I prefer summer over winter.",
+      "key": "bfi2s_classic_main_attention_check",
+      "order": 10,
+      "type": "checkbox",
+      "is_required": true,
+      "is_attention_check": true,
+      "section_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10010,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Has little interest in abstract ideas.",
+      "key": "bfi2s_classic_main_little_interest_abstract",
+      "order": 11,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10011,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is full of energy.",
+      "key": "bfi2s_classic_main_full_of_energy",
+      "order": 12,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10012,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Assumes the best about people.",
+      "key": "bfi2s_classic_main_assumes_best_people",
+      "order": 13,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10013,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is reliable, can always be counted on.",
+      "key": "bfi2s_classic_main_reliable_counted_on",
+      "order": 14,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10014,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is emotionally stable, not easily upset.",
+      "key": "bfi2s_classic_main_emotionally_stable",
+      "order": 15,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10015,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is original, comes up with new ideas.",
+      "key": "bfi2s_classic_main_original_new_ideas",
+      "order": 16,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10016,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is outgoing, sociable.",
+      "key": "bfi2s_classic_main_outgoing_sociable",
+      "order": 17,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10017,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Can be cold and uncaring.",
+      "key": "bfi2s_classic_main_cold_uncaring",
+      "order": 18,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10018,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Keeps things neat and tidy.",
+      "key": "bfi2s_classic_main_neat_tidy",
+      "order": 19,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10019,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is relaxed, handles stress well.",
+      "key": "bfi2s_classic_main_handles_stress_well",
+      "order": 20,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10020,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Has few artistic interests.",
+      "key": "bfi2s_classic_main_few_artistic_interests",
+      "order": 21,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10021,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Prefers to have others take charge.",
+      "key": "bfi2s_classic_main_prefers_others_take_charge",
+      "order": 22,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10022,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is respectful, treats others with respect.",
+      "key": "bfi2s_classic_main_respectful_treats_respect",
+      "order": 23,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10023,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is persistent, works until the task is finished.",
+      "key": "bfi2s_classic_main_persistent_task_finished",
+      "order": 24,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10024,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Feels secure, comfortable with self.",
+      "key": "bfi2s_classic_main_feels_secure_comfortable",
+      "order": 25,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10025,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is complex, a deep thinker.",
+      "key": "bfi2s_classic_main_complex_deep_thinker",
+      "order": 26,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10026,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is less active than other people.",
+      "key": "bfi2s_classic_main_less_active",
+      "order": 27,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10027,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Tends to find fault with others.",
+      "key": "bfi2s_classic_main_finds_fault_with_others",
+      "order": 28,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10028,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Can be somewhat careless.",
+      "key": "bfi2s_classic_main_somewhat_careless",
+      "order": 29,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10029,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Is temperamental, gets emotional easily.",
+      "key": "bfi2s_classic_main_temperamental_emotional",
+      "order": 30,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 10030,
+    "fields": {
+      "preheading": "I am someone who...",
+      "content": "Has little creativity.",
+      "key": "bfi2s_classic_main_little_creativity",
+      "order": 31,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 1003,
+      "scale_id": 1000,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

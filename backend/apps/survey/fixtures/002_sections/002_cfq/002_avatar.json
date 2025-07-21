@@ -1,0 +1,139 @@
+[
+  {
+    "model": "survey.Section",
+    "pk": 2100,
+    "fields": {
+      "title": "Welcome to Our Survey!",
+      "content": null,
+      "key": "cfq_avatar_getting_started",
+      "type": "information",
+      "order": 1,
+      "is_required": false,
+      "is_ai_assisted": false,
+      "questionnaire_section_id": null,
+      "survey_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2107,
+    "fields": {
+      "title": "Microphone Check",
+      "subtitle": "Please check that your microphone is working properly before proceeding.",
+      "content": null,
+      "key": "cfq_avatar_mic_check",
+      "type": "information",
+      "order": 2,
+      "is_required": false,
+      "is_ai_assisted": false,
+      "questionnaire_section_id": null,
+      "survey_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2101,
+    "fields": {
+      "title": "Choose Your AI Assistant",
+      "content": null,
+      "key": "cfq_avatar_choose_your_avatar",
+      "type": "information",
+      "order": 3,
+      "is_required": true,
+      "is_ai_assisted": false,
+      "questionnaire_section_id": null,
+      "survey_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2102,
+    "fields": {
+      "title": "About You",
+      "content": null,
+      "key": "cfq_avatar_about_you",
+      "type": "questionnaire",
+      "order": 4,
+      "is_required": true,
+      "is_ai_assisted": true,
+      "survey_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2103,
+    "fields": {
+      "title": "Assessment of Your Cognitive Traits",
+      "content": null,
+      "key": "cfq_avatar_what_to_expect",
+      "type": "information",
+      "order": 5,
+      "is_required": false,
+      "is_ai_assisted": true,
+      "has_discussion": true,
+      "questionnaire_section_id": null,
+      "survey_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2104,
+    "fields": {
+      "title": "Exploring Your Cognitive Habits",
+      "content": null,
+      "key": "cfq_avatar_questionnaire",
+      "type": "questionnaire",
+      "order": 6,
+      "is_required": true,
+      "is_ai_assisted": true,
+      "survey_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2105,
+    "fields": {
+      "title": "Your Cognitive Profile",
+      "content": null,
+      "key": "cfq_avatar_results",
+      "type": "results",
+      "order": 7,
+      "is_required": false,
+      "is_ai_assisted": true,
+      "has_discussion": true,
+      "questionnaire_section_id": 2104,
+      "survey_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2106,
+    "fields": {
+      "title": "Final Reflections",
+      "content": null,
+      "key": "cfq_avatar_final_reflections",
+      "type": "questionnaire",
+      "order": 8,
+      "is_required": true,
+      "is_ai_assisted": false,
+      "questionnaire_section_id": null,
+      "survey_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

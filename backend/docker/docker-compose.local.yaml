@@ -1,0 +1,66 @@
+services:
+  db:
+    image: postgres:16.4-alpine
+    restart: unless-stopped
+    container_name: db
+    volumes:
+      - db_data:/var/lib/postgresql/data/
+    networks:
+      - backend
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+  redis:
+    image: redis:alpine
+    container_name: redis
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    networks:
+      - backend
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.local
+    image: backend:latest
+    restart: unless-stopped
+    container_name: backend
+    ports:
+      - 8000:8000
+    volumes:
+      - ../:/var/www/html
+    networks:
+      - backend
+    environment:
+      - STATIC_ROOT=/var/www/html
+    depends_on:
+      - db
+  nginx:
+    image: nginx:alpine
+    restart: unless-stopped
+    container_name: nginx
+    ports:
+      - 8080:80
+    volumes:
+      - ../:/var/www/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - backend
+    depends_on:
+      - backend
+
+volumes:
+  db_data:
+    name: db_data
+    driver: local
+  redis_data:
+    name: redis_data
+    driver: local
+
+networks:
+  backend:
+    name: backend
+    driver: bridge

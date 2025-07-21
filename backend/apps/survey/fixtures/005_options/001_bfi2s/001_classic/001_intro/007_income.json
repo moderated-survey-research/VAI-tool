@@ -1,0 +1,110 @@
+[
+  {
+    "model": "survey.Option",
+    "pk": 100800,
+    "fields": {
+      "requires_input": false,
+      "content": "No income",
+      "order": 1,
+      "question_id": 10109,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100801,
+    "fields": {
+      "requires_input": false,
+      "content": "£0 - £9,999",
+      "order": 2,
+      "question_id": 10109,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100802,
+    "fields": {
+      "requires_input": false,
+      "content": "£10,000 - £19,999",
+      "order": 3,
+      "question_id": 10109,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100803,
+    "fields": {
+      "requires_input": false,
+      "content": "£20,000 - £29,999",
+      "order": 4,
+      "question_id": 10109,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100804,
+    "fields": {
+      "requires_input": false,
+      "content": "£30,000 - £39,999",
+      "order": 5,
+      "question_id": 10109,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100805,
+    "fields": {
+      "requires_input": false,
+      "content": "£40,000 - £49,999",
+      "order": 6,
+      "question_id": 10109,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100806,
+    "fields": {
+      "requires_input": false,
+      "content": "£50,000 - £74,999",
+      "order": 7,
+      "question_id": 10109,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100807,
+    "fields": {
+      "requires_input": false,
+      "content": "£75,000 - £100,000",
+      "order": 8,
+      "question_id": 10109,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100808,
+    "fields": {
+      "requires_input": false,
+      "content": "More than £100,000",
+      "order": 9,
+      "question_id": 10109,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

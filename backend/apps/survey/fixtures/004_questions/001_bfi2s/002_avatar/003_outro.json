@@ -1,0 +1,97 @@
+[
+  {
+    "model": "survey.Question",
+    "pk": 11200,
+    "fields": {
+      "content": "During this survey, you interacted with a voice-based AI assistant. If you had to choose, would you prefer this format or a text-based assistant (where you communicate by typing) for a similar survey in the future?",
+      "key": "bfi2s_avatar_outro_assistant_preference",
+      "order": 4,
+      "type": "scale",
+      "is_required": true,
+      "requires_explanation": true,
+      "section_id": 1106,
+      "scale_id": 1013,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 11201,
+    "fields": {
+      "content": "How much do you agree with this statement: The conversation with the AI assistant felt natural.",
+      "key": "bfi2s_avatar_outro_conversation_naturalness",
+      "order": 1,
+      "type": "scale",
+      "is_required": true,
+      "requires_explanation": true,
+      "section_id": 1106,
+      "scale_id": 1014,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 11202,
+    "fields": {
+      "content": "How would you rate the overall experience of interacting with the AI assistant?",
+      "key": "bfi2s_avatar_outro_interaction_ai",
+      "order": 2,
+      "type": "scale",
+      "is_required": true,
+      "requires_explanation": true,
+      "section_id": 1106,
+      "scale_id": 1006,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 11203,
+    "fields": {
+      "content": "How would you rate your overall experience with this survey?",
+      "key": "bfi2s_avatar_outro_overall_experience",
+      "order": 3,
+      "type": "scale",
+      "is_required": true,
+      "requires_explanation": true,
+      "section_id": 1106,
+      "scale_id": 1006,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 11205,
+    "fields": {
+      "content": "Is there anything else you'd like to tell us regarding this study?",
+      "key": "bfi2s_avatar_outro_feedback_suggestions",
+      "order": 6,
+      "type": "textarea",
+      "is_required": false,
+      "section_id": 1106,
+      "scale_id": null,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 11206,
+    "fields": {
+      "content": "How many months are there in a year? Even though the correct answer is twelve, make sure to choose the option thirty.",
+      "key": "bfi2s_avatar_outro_attention_check",
+      "order": 5,
+      "type": "scale",
+      "is_required": true,
+      "is_attention_check": true,
+      "section_id": 1106,
+      "scale_id": 1016,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

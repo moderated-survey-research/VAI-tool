@@ -1,0 +1,38 @@
+[
+  {
+    "model": "survey.Option",
+    "pk": 100200,
+    "fields": {
+      "requires_input": false,
+      "content": "Male",
+      "order": 1,
+      "question_id": 10102,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100201,
+    "fields": {
+      "requires_input": false,
+      "content": "Female",
+      "order": 2,
+      "question_id": 10102,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100202,
+    "fields": {
+      "requires_input": false,
+      "content": "Nonbinary",
+      "order": 3,
+      "question_id": 10102,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "model": "survey.Question",
+    "pk": 21000,
+    "fields": {
+      "content": "Do you read something and find you haven't been thinking about it and must read it again?",
+      "key": "cfq_avatar_main_read_again",
+      "order": 1,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21001,
+    "fields": {
+      "content": "Do you find you forget why you went from one part of the house to the other?",
+      "key": "cfq_avatar_main_forget_why_moved",
+      "order": 2,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21002,
+    "fields": {
+      "content": "Do you fail to notice signposts on the road?",
+      "key": "cfq_avatar_main_fail_notice_signposts",
+      "order": 3,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21003,
+    "fields": {
+      "content": "Do you find you confuse right and left when giving directions?",
+      "key": "cfq_avatar_main_confuse_right_left",
+      "order": 4,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21004,
+    "fields": {
+      "content": "Do you bump into people?",
+      "key": "cfq_avatar_main_bump_into_people",
+      "order": 5,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21005,
+    "fields": {
+      "content": "Do you forget whether you've turned off a light or a fire or locked the door?",
+      "key": "cfq_avatar_main_forget_turned_off_light",
+      "order": 6,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21006,
+    "fields": {
+      "content": "Do you fail to listen to people's names when you are meeting them?",
+      "key": "cfq_avatar_main_fail_listen_names",
+      "order": 7,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21007,
+    "fields": {
+      "content": "Do you say something and realize afterwards that it might be taken as insulting?",
+      "key": "cfq_avatar_main_say_insulting_things",
+      "order": 8,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21008,
+    "fields": {
+      "content": "Do you fail to hear people speaking to you when you are doing something else?",
+      "key": "cfq_avatar_main_fail_hear_speaking",
+      "order": 9,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21009,
+    "fields": {
+      "subheading": "Some participants rush through surveys without carefully reading the questions, which affects data quality. To show you're paying attention, please select both 'Very often' and 'Never' in this question.",
+      "content": "Do you go to summer vacations?",
+      "key": "cfq_avatar_main_attention_check",
+      "order": 10,
+      "type": "checkbox",
+      "is_required": true,
+      "is_attention_check": true,
+      "section_id": 2104,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21010,
+    "fields": {
+      "content": "Do you lose your temper and regret it?",
+      "key": "cfq_avatar_main_lose_temper",
+      "order": 11,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21011,
+    "fields": {
+      "content": "Do you leave important letters unanswered for days?",
+      "key": "cfq_avatar_main_leave_letters_unanswered",
+      "order": 12,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21012,
+    "fields": {
+      "content": "Do you find you forget which way to turn on a road you know well but rarely use?",
+      "key": "cfq_avatar_main_forget_which_way_turn",
+      "order": 13,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21013,
+    "fields": {
+      "content": "Do you fail to see what you want in a supermarket (although it's there)?",
+      "key": "cfq_avatar_main_fail_see_supermarket",
+      "order": 14,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21014,
+    "fields": {
+      "content": "Do you find yourself suddenly wondering whether you've used a word correctly?",
+      "key": "cfq_avatar_main_wonder_word_correctly",
+      "order": 15,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21015,
+    "fields": {
+      "content": "Do you have trouble making up your mind?",
+      "key": "cfq_avatar_main_trouble_making_mind",
+      "order": 16,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21016,
+    "fields": {
+      "content": "Do you forget appointments?",
+      "key": "cfq_avatar_main_forget_appointments",
+      "order": 17,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21017,
+    "fields": {
+      "content": "Do you forget where you put something like a newspaper or a book?",
+      "key": "cfq_avatar_main_forget_where_put_something",
+      "order": 18,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21018,
+    "fields": {
+      "content": "Do you accidentally throw away the thing you want and keep what you meant to throw away?",
+      "key": "cfq_avatar_main_accidentally_throw_away",
+      "order": 19,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21019,
+    "fields": {
+      "content": "Do you daydream when you ought to be listening to something?",
+      "key": "cfq_avatar_main_daydream_while_listening",
+      "order": 20,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21020,
+    "fields": {
+      "content": "Do you forget people's names?",
+      "key": "cfq_avatar_main_forget_names",
+      "order": 21,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21021,
+    "fields": {
+      "content": "Do you start doing one thing at home and get distracted into doing something else?",
+      "key": "cfq_avatar_main_distracted_while_doing_task",
+      "order": 22,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21022,
+    "fields": {
+      "content": "Do you find you can't quite remember something although it's on the tip of your tongue?",
+      "key": "cfq_avatar_main_cant_remember_tip_of_tongue",
+      "order": 23,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21023,
+    "fields": {
+      "content": "Do you forget what you came to the shops to buy?",
+      "key": "cfq_avatar_main_forget_shopping_items",
+      "order": 24,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21024,
+    "fields": {
+      "content": "Do you drop things?",
+      "key": "cfq_avatar_main_drop_things",
+      "order": 25,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21025,
+    "fields": {
+      "content": "Do you find you can't think of anything to say?",
+      "key": "cfq_avatar_main_cant_think_to_say",
+      "order": 26,
+      "type": "scale",
+      "is_required": true,
+      "has_follow_up": true,
+      "section_id": 2104,
+      "scale_id": 1001,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

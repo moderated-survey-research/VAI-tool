@@ -1,0 +1,86 @@
+[
+  {
+    "model": "survey.Option",
+    "pk": 100300,
+    "fields": {
+      "requires_input": false,
+      "content": "Asian or Pacific Islander",
+      "order": 1,
+      "question_id": 10103,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100301,
+    "fields": {
+      "requires_input": false,
+      "content": "Black",
+      "order": 2,
+      "question_id": 10103,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100302,
+    "fields": {
+      "requires_input": false,
+      "content": "Hispanic or Latino/a/x",
+      "order": 3,
+      "question_id": 10103,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100303,
+    "fields": {
+      "requires_input": false,
+      "content": "Indigenous",
+      "order": 4,
+      "question_id": 10103,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100304,
+    "fields": {
+      "requires_input": false,
+      "content": "Middle Eastern or North African",
+      "order": 5,
+      "question_id": 10103,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100305,
+    "fields": {
+      "requires_input": false,
+      "content": "White",
+      "order": 6,
+      "question_id": 10103,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 100306,
+    "fields": {
+      "requires_input": false,
+      "content": "Other",
+      "order": 7,
+      "question_id": 10103,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "model": "survey.Section",
+    "pk": 2000,
+    "fields": {
+      "title": "Welcome to Our Survey!",
+      "content": null,
+      "key": "cfq_classic_getting_started",
+      "type": "information",
+      "order": 1,
+      "is_required": false,
+      "is_ai_assisted": false,
+      "questionnaire_section_id": null,
+      "survey_id": 1002,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2001,
+    "fields": {
+      "title": "About You",
+      "content": null,
+      "key": "cfq_classic_about_you",
+      "type": "questionnaire",
+      "order": 2,
+      "is_required": true,
+      "is_ai_assisted": false,
+      "survey_id": 1002,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2002,
+    "fields": {
+      "title": "Assessment of Your Cognitive Traits",
+      "content": null,
+      "key": "cfq_classic_what_to_expect",
+      "type": "information",
+      "order": 3,
+      "is_required": false,
+      "is_ai_assisted": false,
+      "has_discussion": true,
+      "questionnaire_section_id": null,
+      "survey_id": 1002,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2003,
+    "fields": {
+      "title": "Exploring Your Cognitive Habits",
+      "content": null,
+      "key": "cfq_classic_questionnaire",
+      "type": "questionnaire",
+      "order": 4,
+      "is_required": true,
+      "is_ai_assisted": false,
+      "survey_id": 1002,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2004,
+    "fields": {
+      "title": "Your Cognitive Profile",
+      "content": null,
+      "key": "cfq_classic_results",
+      "type": "results",
+      "order": 5,
+      "is_required": false,
+      "is_ai_assisted": false,
+      "has_discussion": true,
+      "questionnaire_section_id": 2003,
+      "survey_id": 1002,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Section",
+    "pk": 2005,
+    "fields": {
+      "title": "Final Reflections",
+      "content": null,
+      "key": "cfq_classic_final_reflections",
+      "type": "questionnaire",
+      "order": 6,
+      "is_required": true,
+      "is_ai_assisted": false,
+      "questionnaire_section_id": null,
+      "survey_id": 1002,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

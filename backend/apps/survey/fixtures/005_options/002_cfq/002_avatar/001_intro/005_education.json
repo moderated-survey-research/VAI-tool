@@ -1,0 +1,98 @@
+[
+  {
+    "model": "survey.Option",
+    "pk": 210400,
+    "fields": {
+      "requires_input": false,
+      "content": "None completed",
+      "order": 1,
+      "question_id": 21104,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 210401,
+    "fields": {
+      "requires_input": false,
+      "content": "Primary education",
+      "order": 2,
+      "question_id": 21104,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 210402,
+    "fields": {
+      "requires_input": false,
+      "content": "Secondary education",
+      "order": 3,
+      "question_id": 21104,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 210403,
+    "fields": {
+      "requires_input": false,
+      "content": "High school diploma",
+      "order": 4,
+      "question_id": 21104,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 210404,
+    "fields": {
+      "requires_input": false,
+      "content": "Technical/community college",
+      "order": 5,
+      "question_id": 21104,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 210405,
+    "fields": {
+      "requires_input": false,
+      "content": "Undergraduate degree",
+      "order": 6,
+      "question_id": 21104,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 210406,
+    "fields": {
+      "requires_input": false,
+      "content": "Graduate degree",
+      "order": 7,
+      "question_id": 21104,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Option",
+    "pk": 210407,
+    "fields": {
+      "requires_input": false,
+      "content": "Doctoral degree",
+      "order": 8,
+      "question_id": 21104,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]

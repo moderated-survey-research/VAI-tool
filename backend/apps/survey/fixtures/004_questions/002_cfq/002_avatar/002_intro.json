@@ -1,0 +1,154 @@
+[
+  {
+    "model": "survey.Question",
+    "pk": 21101,
+    "fields": {
+      "content": "What is your age?",
+      "key": "cfq_avatar_intro_age",
+      "order": 1,
+      "type": "radio",
+      "is_required": true,
+      "section_id": 2102,
+      "scale_id": null,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21102,
+    "fields": {
+      "content": "Which gender do you identify as?",
+      "key": "cfq_avatar_intro_gender",
+      "order": 2,
+      "type": "radio",
+      "is_required": true,
+      "section_id": 2102,
+      "scale_id": null,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21103,
+    "fields": {
+      "content": "How do you identify yourself in terms of race?",
+      "key": "cfq_avatar_intro_race",
+      "order": 3,
+      "type": "radio",
+      "is_required": true,
+      "section_id": 2102,
+      "scale_id": null,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21104,
+    "fields": {
+      "content": "What is the highest education level you have completed?",
+      "key": "cfq_avatar_intro_education",
+      "order": 4,
+      "type": "radio",
+      "is_required": true,
+      "section_id": 2102,
+      "scale_id": null,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21109,
+    "fields": {
+      "content": "What is your personal income per year, after tax?",
+      "key": "cfq_avatar_intro_income",
+      "order": 5,
+      "type": "radio",
+      "is_required": true,
+      "section_id": 2102,
+      "scale_id": null,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21105,
+    "fields": {
+      "content": "How often do you use a computer?",
+      "key": "cfq_avatar_computer_usage",
+      "order": 6,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2102,
+      "scale_id": 1003,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21106,
+    "fields": {
+      "content": "What is your general attitude towards artificial intelligence?",
+      "key": "cfq_avatar_attitude_artificial_intelligence",
+      "order": 7,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2102,
+      "scale_id": 1004,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21107,
+    "fields": {
+      "content": "Have you previously interacted with AI-based conversational agents (e.g., chatbots, virtual assistants, avatars) in online surveys or other platforms?",
+      "key": "cfq_avatar_interacted_artificial_intelligence",
+      "order": 8,
+      "type": "radio",
+      "is_required": true,
+      "section_id": 2102,
+      "scale_id": null,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 22108,
+    "fields": {
+      "content": "How would you rate your overall proficiency in English?",
+      "key": "cfq_avatar_proficiency_english",
+      "order": 9,
+      "type": "scale",
+      "is_required": true,
+      "section_id": 2102,
+      "scale_id": 1011,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "survey.Question",
+    "pk": 21110,
+    "fields": {
+      "subheading": "Based on the text above, what is a meal you would order in a restaurant?",
+      "content": "You may love pizza or ice cream. But when we ask you what you would order in the restaurant, you need to choose a salad.",
+      "key": "cfq_avatar_attention_check",
+      "order": 10,
+      "type": "radio",
+      "is_required": true,
+      "is_attention_check": true,
+      "section_id": 2102,
+      "scale_id": null,
+      "created_at": "2000-01-01T00:00:00Z",
+      "updated_at": "2000-01-01T00:00:00Z"
+    }
+  }
+]
